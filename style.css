@@ -1,0 +1,85 @@
+/*CSS STYLES*/
+*{
+	padding:0%;
+	margin:auto;
+	box-sizing:border-box;
+  }
+#service-section{
+					width:100%;
+					
+					margin:auto;
+					background-color:rgb(220, 229, 232);
+				 }
+				 
+.service-container{
+						width:80%;
+						margin:auto;
+						padding:1%;	
+					}
+	
+.serviceheader-section{
+							text-align:center;
+							font-size:weight;
+						}
+.serviceheader-section h1{
+							color:rgb(43, 57, 117);
+						  }
+						
+.serviceheader-section p{
+							text-align:center;	
+							padding-top:1%;
+							color:black;
+						}
+					
+.servicebox-section{	
+						display:flex;
+						padding:5%;
+						width:100%;
+					}
+/* MEDIA QUERY */
+@media(max-width:600px){
+							.servicebox-section{
+													flex-wrap:wrap;
+												}
+						 }
+					
+					
+.servicebox1-section{
+						border:;
+						width:25%;
+						height:200px;
+						justify-content:space-evenly;
+						padding:2%;		
+					 } 
+/* MEDIA QUERY */
+@media(max-width:600px){
+							.servicebox1-section{
+													
+													width:100%;
+												 }
+						 }	
+				
+.service-box{
+					background-color:white;
+					padding:4% 10%;
+			 }
+			 
+.service-icon{
+					font-size:35px;
+					color:rgb(72, 203, 250);
+					padding:2%;
+			   }
+			   
+.service-box a{
+					text-decoration:none; 
+					padding-top:2%;
+					color:rgb(43, 57, 117);
+				}
+				
+.service-box p{
+					font-size:14px;
+					justify-content:space-around;
+					text-align:justify;
+					line-height:1.5;
+					padding-top:3%;
+				}
